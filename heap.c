@@ -80,8 +80,8 @@ void sinkDown(int currentIndex) {
 void printHeapElements() {
   for (int i = 0; i <= heapIndex; i++) {
     printf("%d ", heap[i]);
-    // fflush(stdout);
+    fflush(stdout);
   }
   printf("\n");
-  // fflush(stdout);
+  fflush(stdout);
 }
