@@ -47,10 +47,7 @@ void heapify(int * values, int currentIndex) {
 }
 
 int extractMin(int * heap) {
-  int min = heap[0];
-  heap[0] = heap[heapIndex--];
-  sinkDown(heap, 0);
-  return min;
+  // TODO: For you to implement
 }
 
 void sinkDown(int * heap, int currentIndex) {

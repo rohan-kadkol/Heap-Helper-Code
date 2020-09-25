@@ -30,30 +30,15 @@ int main() {
 }
 
 void insert(int value) {
-  heap[++heapIndex] = value;
-  floatUp(heapIndex);
-  printHeapElements();
+  // TODO: For you to implement
 }
 
 void floatUp(int heapIndex) {
-  if (heapIndex == 0) {
-    return;
-  }
-
-  int parentIndex = (heapIndex - 1) / 2;
-  if (heap[heapIndex] < heap[parentIndex]) {
-    int temp = heap[heapIndex];
-    heap[heapIndex] = heap[parentIndex];
-    heap[parentIndex] = temp;
-    floatUp(parentIndex);
-  }
+  // TODO: For you to implement
 }
 
 void extractMin() {
-  printf("Minimum = %d\n", heap[0]);
-  heap[0] = heap[heapIndex--];
-  sinkDown(0);
-  printHeapElements();
+  // TODO: For you to implement
 }
 
 void sinkDown(int currentIndex) {
