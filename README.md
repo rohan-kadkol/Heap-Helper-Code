@@ -1,3 +1,5 @@
+**NOTE: FOR SOLUTION CODE, HEAD OVER TO THE MASTER BRANCH**
+
 # Heap and Heap Sort Sample Code
 
 ## Description
