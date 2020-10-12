@@ -4,7 +4,7 @@
 
 This branch contains
 1. FULLY IMPLEMENTED code
-2. FULLY FUNCTIONAL executables:
+2. FULLY FUNCTIONAL executables
 
 ## Intructions to run the code (on Linux/Mac and Windows)
 
